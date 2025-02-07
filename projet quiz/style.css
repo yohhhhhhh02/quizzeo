@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #333; 
+    color: #fff; 
+    padding: 5px;
+}
+
+ 
+  header h1 {
+    margin: 0; /* Supprime les marges par défaut */
+  }
+  
+  /* Style de la navigation */
+  nav ul {
+    display: flex;
+    padding: 0; /* Supprime les marges intérieures */
+    justify-content: space-evenly;
+
+    display: flex;
+  }
+
+  nav ul li {
+    display: flex; /* Affiche les éléments de la liste en ligne */
+    margin-right: 20px; /* Espacement entre les éléments */
+  }
+  
+  nav ul li a {
+    color: white; /* Couleur du lien */
+    text-decoration: none; /* Supprime le soulignement du lien */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline; /* Soulignement du lien au survol */
+  }
+  
+  .img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  img {
+    width: 10%;
+    display: flex;
+    align-items: center;
+  }

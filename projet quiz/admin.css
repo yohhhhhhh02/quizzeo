@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/new-walt-disney-font');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #e2e9ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.container h2{
+    font-family: 'New Walt Disney Font', sans-serif;
+    font-size: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+label{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+label {
+        margin-bottom: 6px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.4);   
+}
+
+input:focus {
+    border: 1px solid #007bff;
+}
+
+input[type="submit"]{
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px;
+}
+ p  a:hover {
+    text-decoration: underline;
+ }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+}
